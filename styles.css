@@ -251,7 +251,7 @@ textarea {
 }
 
 .title {
-  color: grey;
+  color:brown;
   font-size: 18px;
 }
 
@@ -277,7 +277,7 @@ button {
 .card img {
   width: 60%;
   border-radius: 10px;
-  border: 2px solid #333;
+  border: 2px solid#ad8f0b;
 }
 
 .card-div {
@@ -295,3 +295,13 @@ button:hover {
   clear: both;
   display: table;
 }
+
+h1{
+  color: chocolate;
+}
+
+p{
+  color: orange;
+}
+
+
