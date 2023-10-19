@@ -119,9 +119,9 @@ nav div a img {
 .hours-header {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-    url("images/charizard-8.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+    url("images/flareon.2.jpg");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
   background-position: center;
   color: #fff;
   text-shadow: 1px 1px 1px #333;
@@ -146,7 +146,7 @@ nav div a img {
 .leadership-header {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-    url("images/pokeball3.gif");
+    url("/flareon-fire-spin.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -242,11 +242,12 @@ textarea {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 200px;
   float: left;
   text-align: center;
   margin-left: 15px;
   border-radius: 10px;
+  
 }
 
 .title {
@@ -280,7 +281,7 @@ button {
 }
 
 .card-div {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
