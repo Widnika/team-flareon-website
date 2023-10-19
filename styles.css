@@ -199,7 +199,7 @@ a:hover {
   text-decoration: none;
   padding: 15px;
   color: #fff;
-  background: #4b95a3ff;
+  background: red;
   border-radius: 100px;
 }
 
@@ -288,7 +288,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(90, 176, 193);
+  background-color: rgb(193, 104, 90);
 }
 
 
@@ -310,3 +310,4 @@ h1 {
 #contact input, textarea {
   width: 85%;
 }
+
