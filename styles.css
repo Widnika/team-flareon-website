@@ -58,7 +58,7 @@ section {
 footer {
   padding: 40px;
   height: 100px;
-  background-color: #4b95a3ff;
+  background-color: red;
   color: #fff;
   text-align: center;
 }
@@ -300,8 +300,4 @@ button:hover {
 
 h1 {
   color: chocolate;
-}
-
-p {
-  color: orange;
 }
