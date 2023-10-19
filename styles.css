@@ -253,7 +253,7 @@ textarea {
 }
 
 .title {
-  color: grey;
+  color: brown;
   font-size: 18px;
 }
 
@@ -296,4 +296,12 @@ button:hover {
   content: "";
   clear: both;
   display: table;
+}
+
+h1 {
+  color: chocolate;
+}
+
+p {
+  color: orange;
 }
