@@ -52,12 +52,14 @@ th {
 section {
   height: 400px;
   padding: 40px;
+  margin-bottom: 60px;
 }
 
 footer {
   padding: 40px;
   height: 100px;
-  background-color: orange;
+  background-color: #4b95a3ff;
+  color: #fff;
   text-align: center;
 }
 
@@ -133,8 +135,8 @@ nav div a img {
   text-align: center;
   background-color: #4b95a3ff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-    url("images/charizard-5.png"),
-    url("https://www.freeiconspng.com/uploads/fire-flames-png-transparent-29.png");
+    url("images/580b57fcd9996e24bc43c31d.png"),
+    url("images/696729.jpg");
   background-size: cover, contain;
   background-position: center;
   background-repeat: no-repeat;
