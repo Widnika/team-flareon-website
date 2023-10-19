@@ -119,9 +119,9 @@ nav div a img {
 .hours-header {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-    url("images/charizard-8.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+    url("images/flareon.2.jpg");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
   background-position: center;
   color: #fff;
   text-shadow: 1px 1px 1px #333;
