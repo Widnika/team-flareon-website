@@ -41,12 +41,12 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: orange;
 }
 
 th {
-  background-color: #4b95a3ff;
-  color: white;
+  background-color: rgba(220, 93, 8, 0.89);
+  
 }
 
 section {
@@ -57,8 +57,7 @@ section {
 footer {
   padding: 40px;
   height: 100px;
-  background-color: #4b95a3ff;
-  color: #fff;
+  background-color: orange;
   text-align: center;
 }
 
@@ -120,9 +119,9 @@ nav div a img {
 .hours-header {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-    url("images/charizard-8.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+    url("images/flareon.2.jpg");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
   background-position: center;
   color: #fff;
   text-shadow: 1px 1px 1px #333;
