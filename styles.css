@@ -41,12 +41,12 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: orange;
 }
 
 th {
-  background-color: #4b95a3ff;
-  color: white;
+  background-color: rgba(220, 93, 8, 0.89);
+  
 }
 
 section {
@@ -58,7 +58,7 @@ section {
 footer {
   padding: 40px;
   height: 100px;
-  background-color: rgb(181, 32, 32);
+  background-color: #4b95a3ff;
   color: #fff;
   text-align: center;
 }
@@ -68,7 +68,7 @@ footer {
 }
 
 .about-section {
-  background-color: #f5f5f5;
+  background-color: orange;
 }
 
 .about-hours h1,
@@ -107,7 +107,7 @@ nav div a img {
 .header {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-    url("images/charizard-1.png"), url("images/pokemon-background.png");
+    url("flareon trans.webp"), url("pokemon\ bg.jpg");
   background-size: cover, contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -121,9 +121,9 @@ nav div a img {
 .hours-header {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-    url("images/charizard-8.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+    url("images/flareon.2.jpg");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
   background-position: center;
   color: #fff;
   text-shadow: 1px 1px 1px #333;
@@ -148,7 +148,7 @@ nav div a img {
 .leadership-header {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-    url("images/pokeball3.gif");
+    url("/flareon-fire-spin.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -244,11 +244,12 @@ textarea {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 200px;
   float: left;
   text-align: center;
   margin-left: 15px;
   border-radius: 10px;
+  
 }
 
 .title {
@@ -282,7 +283,7 @@ button {
 }
 
 .card-div {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
